@@ -1,7 +1,7 @@
 const fs = require('node:fs');
 const colors = []
 try {
-    const data = fs.readFileSync('../palete.md', 'utf8');
+    const data = fs.readFileSync('../palette.md', 'utf8');
     data.split("\n").forEach(element => {
         const name = element.match("- (.+) =");
         

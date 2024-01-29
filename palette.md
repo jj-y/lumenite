@@ -1,4 +1,4 @@
-# Color Pallet
+# Color Palette 
 
 - black = "#0e1013"
 - sel1 = "#282c34"
