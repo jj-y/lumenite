@@ -1,6 +1,4 @@
-# Specification
-
-## Color Pallet
+# Color Pallet
 
 - black = "#0e1013"
 - sel1 = "#282c34"
@@ -16,16 +14,9 @@
 - orange = "#FFB46E",
 - blue = "#54B2FF",
 
-- purple = "#DF8DFA",
+- purple = "#DF8DFA,
 
 - yellow = "#FFCF66",
 - red = "#FF5E6C",
 - cyan = "#69E0F0",
 - pink = "#FF80DD"
-
-
-
-
-
-
-

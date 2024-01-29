@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <style>
+            body {
+                background-color: var(--main-background-color, #1f2329);
+            }
+            ::selection {
+                background: var(--selection-color, #444C59);
+            }
+        </style>
+    </head>
+    <body><p><span style="color: #0e1013;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #282c34;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #30363f;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #323641;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #1f2329;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #181b20;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #CED4ED;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #A9AEC2;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #8ebd6b;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #FFB46E;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #54B2FF;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #DF8DFA;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #FFCF66;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #FF5E6C;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #69E0F0;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span><span style="color: #FF80DD;">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</span></p><h2>Background</h2>
+        <div style="display: flex; flex-direction: row;"><button onclick="changeBKColor("#0e1013")">black</button><button onclick="changeBKColor("#282c34")">sel1</button><button onclick="changeBKColor("#30363f")">sel2</button><button onclick="changeBKColor("#323641")">sel3</button><button onclick="changeBKColor("#1f2329")">bg0</button><button onclick="changeBKColor("#181b20")">bg_d</button><button onclick="changeBKColor("#CED4ED")">fg</button><button onclick="changeBKColor("#A9AEC2")">fg_lower</button><button onclick="changeBKColor("#8ebd6b")">green</button><button onclick="changeBKColor("#FFB46E")">orange</button><button onclick="changeBKColor("#54B2FF")">blue</button><button onclick="changeBKColor("#DF8DFA")">purple</button><button onclick="changeBKColor("#FFCF66")">yellow</button><button onclick="changeBKColor("#FF5E6C")">red</button><button onclick="changeBKColor("#69E0F0")">cyan</button><button onclick="changeBKColor("#FF80DD")">pink</button></div><h2>Selection</h2>
+        <div style="display: flex; flex-direction: row;"><button onclick="changeSelColor('#0e1013')">black</button><button onclick="changeSelColor('#282c34')">sel1</button><button onclick="changeSelColor('#30363f')">sel2</button><button onclick="changeSelColor('#323641')">sel3</button><button onclick="changeSelColor('#1f2329')">bg0</button><button onclick="changeSelColor('#181b20')">bg_d</button><button onclick="changeSelColor('#CED4ED')">fg</button><button onclick="changeSelColor('#A9AEC2')">fg_lower</button><button onclick="changeSelColor('#8ebd6b')">green</button><button onclick="changeSelColor('#FFB46E')">orange</button><button onclick="changeSelColor('#54B2FF')">blue</button><button onclick="changeSelColor('#DF8DFA')">purple</button><button onclick="changeSelColor('#FFCF66')">yellow</button><button onclick="changeSelColor('#FF5E6C')">red</button><button onclick="changeSelColor('#69E0F0')">cyan</button><button onclick="changeSelColor('#FF80DD')">pink</button></div>
+    </body>
+    <script>
+        const root = document.querySelector(':root');
+        function changeBKColor(color) {
+            root.style.setProperty('--main-background-color', color);
+        }
+        function changeSelColor(color) {
+            root.style.setProperty('--selection-color', color);
+        }
+    </script>
+</html>
