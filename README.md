@@ -21,3 +21,5 @@ Please, see the [LICENSE](https://github.com/catppuccin/catppuccin/blob/main/LIC
 - [Catpuccin](https://github.com/catppuccin/catppuccin/) for doc design and colors design
 - [Onedark.Nvim](https://github.com/navarasu/onedark.nvim/blob/) for colors
 - [One dark from Atom](https://github.com/atom/atom/tree/master/packages/one-dark-ui) for colors
+- [Sample Programs in Every Language](https://github.com/TheRenegadeCoder/sample-programs) for all the examples in the examples folder
+
