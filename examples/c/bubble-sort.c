@@ -27,6 +27,7 @@ size_t parse_list(const char *orig_list, long **arr)
     }
 
     /* since there's one more number than there are commas, add one */
+    // TODO test
     num_elements++;
 
     /* alloc our array */

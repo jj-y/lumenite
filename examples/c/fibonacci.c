@@ -2,12 +2,14 @@
 #include <errno.h>
 #include <inttypes.h>
 #include <string.h>
+#include <threads.h>
 
 /*
  * This limit is chosen because fib(93) is the first number that is
  * still small enough to fit into a 64 bit integer.
  */
 #define LIMIT 93
+//TODO: things to do
 
 void fibonacci(int n)
 {
@@ -25,6 +27,8 @@ void fibonacci(int n)
 
 int main(int argc, char **argv)
 {
+    char test[] = "test\n";
+    char te = '\r';
     uintmax_t n;
 
     if (argc < 2 || strcmp(argv[1], "") == 0) {

@@ -12,6 +12,10 @@ type job struct {
 	profit   int
 	deadline int
 }
+type Person interface{
+    greet() string
+}
+ 
 
 type jobSequence []job
 type jobMapping map[int]job
