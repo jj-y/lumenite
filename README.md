@@ -4,12 +4,12 @@ lumenite is an experimental color scheme that has no clear direction. It aims to
 
 ---
 
-WORK IN PROGRESS
+**WORK IN PROGRESS**
 
 ## Contribute
 
-This is a personal learning project please accept that a contribution is highly unlikly to be read and therefore implemented into the Project.
-
+This is a personal project, please accept that the main goal of this project is to make the thing i want and therefore it only has to work for me.
+Moreover any contribution is highly unlikely to be read and therefore implemented into the Project. 
 
 ## License
 
