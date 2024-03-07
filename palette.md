@@ -1,22 +1,22 @@
 # Color Palette 
 
-- black = "#0e1013"
-- sel1 = "#282c34"
-- sel2 = "#30363f",
-- sel3 = "#323641",
 
-- bg0 = "#1f2329"
-- bg_d = "#181b20",
-- fg = "#CED4ED",
-- fg_lower = "#A9AEC2",
+## Dark
+- bg_primary = "#1f2329",
+- bg_secondary = "#13161A",
+
+- sel_1 = "#282c34",
+- sel_2 = "#3A414D",
+- sel_3 = "#454A59",
+
+- fg = "#E6EAFF",
+- fg_lower = "#959BAB",
 
 - green = "#8ebd6b",
-- orange = "#FFB46E",
-- blue = "#54B2FF",
-
-- purple = "#DF8DFA,
-
 - yellow = "#FFCF66",
+- blue = "#54B2FF",
+- purple = "#DF8DFA",
+- orange = "#FFB46E",
 - red = "#FF5E6C",
 - cyan = "#69E0F0",
-- pink = "#FF80DD"
+- pink = "#FF80DD",
